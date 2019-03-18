@@ -23,6 +23,6 @@
 hs_err_pid*
 
 .target/*
-.idea
+.idea/*
 *.iml
 src/main/resources/application.yml
