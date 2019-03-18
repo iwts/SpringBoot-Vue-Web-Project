@@ -9,9 +9,9 @@ spring:
 
   datasource:
     name: do-iwts
-    url: jdbc:mysql://138.197.222.112:3306/simrobot?useUnicode=true&characterEncoding=UTF-8&useSSL=false
-    username: root
-    password: iwts
+    url: jdbc:mysql://{IP:{PORT}/simrobot?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username:
+    password:
     # druid连接池
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
