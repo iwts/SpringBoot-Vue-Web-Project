@@ -7,6 +7,17 @@ spring:
       max-file-size: 50MB
       max-request-size: 50MB
 
+  redis:
+    database: 0
+    host: {IP}
+    port: {PORT}
+    timeout: 200
+    pool:
+      max-active: 8
+      max-wait: 200
+      max-idle: 8
+      min-idle: 0
+
   datasource:
     name: do-iwts
     url: jdbc:mysql://{IP:{PORT}/simrobot?useUnicode=true&characterEncoding=UTF-8&useSSL=false
