@@ -8,6 +8,8 @@ Windows下nginx.conf文件的具体内容。Spring Boot集成了Tomcat，所以�
 
 持久化框架使用 MyBatis，在 Spring Boot 下集成也比较方便，数据池使用阿里的 druid。
 
+MySQL 作为主存储数据库，同时使用 Redis 做缓存。
+
 # 项目内容
 
 因为没有画 UML 只能描述了。其实是实验室内部简单使用的工作管理，学生可以发布工作，可以参与工作（说白了就是交作
